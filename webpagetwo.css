@@ -1,0 +1,325 @@
+*{
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.disclaimer-alert{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(23, 22, 22);
+    text-align: center;
+    padding-top: 15px ;
+    padding-bottom: 15px;
+    background-color: rgb(213, 217, 217);
+   
+}
+.disclaimer-alert p{
+    display: inline-block;
+}
+.x-button{
+    float: right;
+    padding-right: 5px ;
+    margin-top: -30px;
+    font-weight: 900;
+}
+.logo{
+    width: 180px;
+    display: inline-block;
+    
+    justify-content: left;
+   
+    
+}
+.nav{
+   
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+
+    
+   
+}
+.nav-right button{
+    font-size: 23px;
+    font-weight: 500;
+    padding:8px 20px 8px ;
+    border-color:black;
+    border-width: 2px;
+    margin-right: 10px;
+    margin-top: 15px;
+    height: 60px;
+    border-radius: 8%;
+    vertical-align: bottom;
+    background-color: white;
+}
+.first-image{
+    width: 100%;
+}
+.second-image{
+ padding-top: 50px;
+    width: 100%;
+   
+    
+}
+.explore-button{
+    text-align: center;
+    padding: 30px;
+   
+}
+.explore-button button{
+    font-size:25px;
+   padding:15px 20px;
+   font-weight: 800;
+     border-radius:6%;
+     color: white;
+     background-color: black;
+}
+.explore-button button:hover{
+    cursor: pointer;
+    background-color: rgb(39, 37, 37);
+    transition:ease 1s;
+    
+}
+
+
+.indias-first-head{
+    
+    margin: 100px;
+    margin-left:200px;
+   
+    font-size:30px;
+    display: inline-block;
+  
+}
+.head-one-sub p{
+    font-size: 30px;
+    font-weight: 600px;
+    padding-top:30px;
+
+}.head-one{
+    font-weight: 800;
+    font-size: 60px;
+    padding-bottom: 60px;
+}
+.line{
+    height: 6px;
+   width: 120px;
+   color: gray;
+   background-color: gray;
+   margin-top:30px
+}
+.phone-head{
+    display: inline;
+    
+}
+.phone{
+    padding:50px 100px 0px 100px ;
+    width: 18%;
+   
+}
+.second{
+   display: flex;
+   justify-content: space-between;
+}
+.second-head{
+    height: fit-content;
+   width: 40%;
+   padding:30px 30px 30px 200px;
+    display: inline-block;
+}
+.choose-head{
+    font-size: 60px;
+    font-weight: 800;
+    
+}
+.battery{
+    padding-top: 40px;
+    font-size: 35px;
+    
+    
+}
+.zero-to-hun{
+    font-size: 75px;
+    font-weight: 800;
+}
+.in-four{
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+.para{
+    font-size: 25px;
+}
+.indias-first-head-img{
+    padding-right: 80px;
+}
+.third-head{
+    height: fit-content;
+    width: 40%;
+    padding:30px 30px 30px 200px;
+    display: inline-block;
+}
+.third-head-main{
+    font-size:58px;
+    font-weight: 800;
+    padding-bottom: 40px;
+}
+.third-head-p{
+    font-size:26px;
+    padding-bottom: 30px;
+}
+.third button{
+    width: 400px;
+    height: 80px;
+    padding:10px;
+    margin: 30px 10px;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 28px;
+    font-weight: 400;
+    transition: 1s;
+    
+}
+.third button:hover{
+    cursor: pointer;
+    background-color: aliceblue ;
+    transition: 1s ;
+    
+}
+.third-head-img{
+    display: inline-block;
+    margin-right: 30px;
+    
+
+}
+.third{
+    display: flex;
+    justify-content: space-between ;
+}.footer-btn{
+    display: flex;
+    width: 100%;
+    background-color: aqua;
+}
+.footer-btn button{
+    width:25%;
+    height:120px;
+    font-size: 25px;
+    font-weight: 500;
+    background-color: white;
+    transition: 1s;
+}
+.footer-btn button:hover{
+    color: white;
+    background-color: black;
+    transition: 1s;
+
+}
+.footer{
+    width: 100%;
+    background-color: rgb(63, 60, 60);
+    height: 400px;
+    color: white;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+.footer div{
+    margin:30px
+}
+.footer div ul{
+    font-size: 35px;
+    font-weight: 600;
+    padding-bottom: 20;
+}
+.footer div li{
+    font-size: 30px;
+    padding:20px 10px 20px 40px
+}
+.footer-buttons-media button{
+    height: 55px;
+    width: 50px;
+    margin-right: 30px;
+    border-radius: 10px;
+    
+   
+}
+.img-media{
+    height: 25px;
+    width: 25px;
+   
+
+}
+.footer-buttons-media button:hover{
+    
+      background-color: black;
+}
+.img-media:hover{
+    filter: invert(100%) sepia(100%) saturate(26%) hue-rotate(30deg) 
+    brightness(107%) contrast(106%);
+}
+.footer-one{
+    width: 35px;
+    height: 40px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+.footer-one-bike{
+    padding-left:50px;
+    height: 40px;
+    width: 70px;
+    padding-bottom: 30px;
+
+}
+.footer-footer{
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(63, 60, 60);
+    color: white;
+    font-weight: 400;
+}
+.footer-bottom{
+    font-size: 25px;
+    text-align: center;
+    background-color: rgb(63, 60, 60);
+    color: white;
+    font-weight: 400;
+    padding: 25px 0 80px 0;;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
